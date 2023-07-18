@@ -1,14 +1,14 @@
 {
   "rewrites": [
     {
-      "source": "/twarda-spacja",
+      "source": "/twarda-spacja/",
       "destination": "https://twarda-spacja.vercel.app/"
     },
     {
       "source": "/twarda-spacja/:match*",
       "destination": "https://twarda-spacja.vercel.app/:match*"
     },
-    { "source": "/btd", "destination": "https://beczkowe-td.vercel.app/" },
+    { "source": "/btd/", "destination": "https://beczkowe-td.vercel.app/" },
     {
       "source": "/btd/:match*",
       "destination": "https://beczkowe-td.vercel.app/:match*"
